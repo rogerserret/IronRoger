@@ -83,5 +83,4 @@ where date(rental_date) between date('2006-01-15') and date('2006-02-14');
 
 SELECT COUNT(rental_id) 
 FROM rental
-WHERE DATE_FORMAT(rental_date,'%M %Y') = (SELECT DATE_FORMAT(MAX(rental_date),'%M %Y') #last_month
-FROM rental);
+WHERE DATE_FORMAT(rental_date,'%M %Y') = (SELECT DATE_FORMAT(MAX(rental_date),'%M %Y') FROM rental);
