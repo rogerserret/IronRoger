@@ -99,4 +99,5 @@ ORDER BY Mean_length;
 #2 Activity: Create a query to show for each movie the following data (in this order):rating,title,length,mean length by rating displayed as Mean_length_by_rating,ranking displayed as Ranking (showing from the longest to the shortest movie within the same rating).This means sorting the results by rating and descending order of movie length.
 
 SELECT rating, title, length, AVG(length) OVER (partition by rating) as Mean_length_by_rating, rank() OVER(partition by rating ORDER BY length DESC) as ranking
-FROM film
+FROM film;
+

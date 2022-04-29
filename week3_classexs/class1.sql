@@ -158,6 +158,82 @@ WHEN 'B' THEN 'warning'
 END AS alter_name
 FROM loan;
 
+#1 Activity: Get all junior cards issued later than the last year. Hint: Use the numeric value (980000).
+
+SELECT card_id, type, issued
+FROM card
+WHERE type = 'junior' AND issued > 980000;
+
+#2 Activity: Get the first 10 transactions for withdrawals that are in cash. You will need the extended case study information to tell you which values are required here, and you will need to refer to conditions on two columns.
+
+SELECT trans_id
+FROM trans
+WHERE type = 'VYDAJ' AND operation = 'VYBER'
+LIMIT 10;
+
+#3 Activity: Refine your query from the last activity on loans whose contract finished and not paid back - filtered to loans where they were left with a debt bigger than 1000. Return the debt value together with loan id and account id.
+
+SELECT loan_id, account_id, amount as debt_value
+FROM loan
+WHERE status = 'B' AND amount > 1000
+LIMIT 10;
+
+#4 Activity: Get the biggest and the smallest transaction with non-zero values in the database (use the trans table in the bank database).
+
+SELECT MAX(amount), MIN(amount)
+FROM trans
+WHERE amount <> 0; 
+
+#5 Get account information with an extra column year showing the opening year as 'YYYY'. Eg., 970707 will show as 1997. Hint: Look at the first two characters of the string date in the account table. The output should display the fields: account_id, district_id, frequency, and 'Year' (YYYY format).
+
+SELECT account_id, district_id, frequency, DATE_FORMAT(date, '%Y') as year
+FROM account;
+
+#6 Activity: Get card_id and year_issued for all gold cards. Use the functions convert() and date_format()
+
+SELECT DATA_TYPE 
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE
+COLUMN_NAME  = 'issued'; #it is text, so first we need to convert it to date
+
+SELECT card_id, DATE_FORMAT(CONVERT(substr(issued, 1, 6),date),'%Y') as year_issued
+FROM card
+WHERE type = 'gold';
+
+#7 Activity: When was the first gold card issued? (Year)
+
+SELECT MIN(DATE_FORMAT(CONVERT(substr(issued, 1, 6),date),'%Y')) as year_issued
+FROM card
+WHERE type = 'gold';
+
+#8 Activity: Get issue date column name displayed as: date_issued: 'November 7th, 1993' (American format)
+
+SELECT DATE_FORMAT(CONVERT(substr(issued, 1, 6),date), '%M %D,%Y') as date_issued
+FROM card; 
+
+#9 Activity: Check for transactions with null or empty values for the column amount.
+
+SELECT COUNT(1) #count number of nulls in the column
+FROM trans 
+WHERE amount IS NULL or amount LIKE '% %';
+
+SELECT trans_id, isnull(amount) #identify the nulls in the column
+FROM trans
+WHERE isnull(amount) > 0;
+
+#10 Activity: Count how many transactions have empty and non-empty k_symbol (in one query). Hint: consider using the function sum() with a condition inside.
+
+SELECT COUNT('1') as nul, COUNT('0') as not_nul
+FROM trans
+WHERE isnull(k_symbol) = 0 or k_symbol = '% %'; #?????
+
+SELECT SUM(CASE
+WHEN k_symbol = 0 THEN 1
+ELSE 0
+END)
+FROM trans;  #?????
+
+
 
 
 
