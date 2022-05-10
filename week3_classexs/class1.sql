@@ -223,15 +223,10 @@ WHERE isnull(amount) > 0;
 
 #10 Activity: Count how many transactions have empty and non-empty k_symbol (in one query). Hint: consider using the function sum() with a condition inside.
 
-SELECT COUNT('1') as nul, COUNT('0') as not_nul
-FROM trans
-WHERE isnull(k_symbol) = 0 or k_symbol = '% %'; #?????
-
-SELECT SUM(CASE
-WHEN k_symbol = 0 THEN 1
-ELSE 0
-END)
-FROM trans;  #?????
+select count(trans_id) as total,
+sum( case when k_symbol='' then 1 else 0 end) as emptyk,
+sum( case when k_symbol!='' then 1 else 0 end) as filledk
+from trans;
 
 
 
