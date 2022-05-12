@@ -103,21 +103,22 @@ FEATURE ENGINEERING
 
 ### Process & Tools
 
-*Github*: set up of my Github repo to store all my project files
-*Trello*: set up a Kanban board in Trello to keep track of the tasks and be able to prioritize 
-*SQL*: started with the independent task of completing the SQL queries
-*Tableau and EDA*: followed with the Tableau activity and proceeded with the assessment of the dataframe to get ready for cleaning
-*Data cleaning & wrangling in Python*: cloumn names cleaning, drop 'customer_number' column, drop null values
-*Prepocessing*: 3 methods - Log Transformation, encoding with Dummies 
-*Machine Learning Model*: using scikit learn
- * iteration 1 (X): applied a Logistic Regression model having only used preprocessing and used it as a benchmark for the following iterations 
-- iteration 2 (X_i2): using SMOTE to improve the imbalance of the target
-- iteration 3 (X_i3): using Tomek Links to improve the imbalance of the target
-- iteration 4 (X_i4): using SMOTE and Tomek Links combined to improve the imbalance of the target
-- iteration 5 (X_i5): applied some feature engineering (dropping q balance columns) based on X_i2
-- iteration 6 (X_i6): applied some feature engineering (droping non-correlated features) based on X_i2
-- iteration 7 (X_i7): applied a KNN classification model combined with SMOTE
-- iteration 8 (X_i8): applied a Decision Trees classification model combined with SMOTE
+* *Github*: set up of my Github repo to store all my project files
+* *Trello*: set up a Kanban board in Trello to keep track of the tasks and be able to prioritize 
+* *SQL*: started with the independent task of completing the SQL queries
+* *Tableau and EDA*: followed with the Tableau activity and proceeded with the assessment of the dataframe to get ready for cleaning
+* *Data cleaning & wrangling in Python*: column names cleaning, drop 'customer_number' column, drop null values, checked duplicates
+* *EDA*: More EDA in Python to check correlation between features and others
+* *Prepocessing*: Log Transformation, encoding with Dummies 
+* *Machine Learning Model*: using scikit learn
+  * iteration 1 (X): applied a Logistic Regression model having only used preprocessing and used it as a benchmark for the following iterations 
+  * iteration 2 (X_i2): using SMOTE to improve the imbalance of the target
+  * iteration 3 (X_i3): using Tomek Links to improve the imbalance of the target
+  * iteration 4 (X_i4): using SMOTE and Tomek Links combined to improve the imbalance of the target
+  * iteration 5 (X_i5): applied some feature engineering (dropping q balance columns) based on X_i2
+  * iteration 6 (X_i6): applied some feature engineering (droping non-correlated features) based on X_i2
+  * iteration 7 (X_i7): applied a KNN classification model combined with SMOTE
+  * iteration 8 (X_i8): applied a Decision Trees classification model combined with SMOTE
 
 <img width="704" alt="Screenshot 2022-05-12 at 19 19 17" src="https://user-images.githubusercontent.com/101060178/168132622-a376ce4b-6153-4abb-b1df-b3c2d72ff935.png">
 
