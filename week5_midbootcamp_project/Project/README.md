@@ -39,13 +39,27 @@ The bank designs a focused marketing study, with 18,000 current bank customers. 
 
 ### Data insights
 
+Leveraging on the [data](https://github.com/rogerserret/IronRoger/blob/main/week5_midbootcamp_project/data_mid_bootcamp_project_classification-master/creditcardmarketing.csv) we were provided with, we used Tableau's and Python's data visualisation tools to explore the relationships between features.
+
+The following dashboard visually shows the key insights that came out from that analytic process.
+
+<img width="1199" alt="Screenshot 2022-05-12 at 17 18 22" src="https://user-images.githubusercontent.com/101060178/168110091-5315b261-47a8-4162-a055-0113f1e49c93.png">
+
+For further details, please refer to my [notebook](https://github.com/rogerserret/IronRoger/blob/main/week5_midbootcamp_project/Project/Mid_bootcamp_project.ipynb) or the [Tableau workbook](https://public.tableau.com/app/profile/roger.serret.aracil/viz/Mid-bootcampproject/Dashboard?publish=yes).
+
 #### Analysis
 
 *Which elements are mainly impacting the % of acceptance of the new credit card?*
 
-**Target:**
-* income_level (The lowest the income level, the highest the acceptance of the offer) 
-*credit_rating (The lowest the credit rating, the highest the acceptance of the offer. The bank should find the balance between risk and conversion.)
+TARGET:
+* Income level (The lowest the income level, the highest the acceptance of the offer) 
+* Credit rating (The lowest the credit rating, the highest the acceptance of the offer) 
+
+OFFER:
+* Reward (Air Miles is the most effective reward, followed by Points. Cash back is the least effective one)
+* Mailer type (Postcard converts more than double than Letter)
+
+
 
 #### Prediction
 
