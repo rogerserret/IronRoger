@@ -71,11 +71,33 @@ CLASSIFICATION TESTED MODELS:
 2. KNN
 3. Decision Trees
 
-afegir taula comparativa de les estadístiques de cada model i confusion matrix del KNN per explicar perquè l'escollim com a model ideal
+After many iterations, my selected model for that business case would be the KNN. However, as Decision Trees is also giving really good results, it would be interesting to analyze the business impact of both and see which one provides the highest profit for the company.
 
-parlar de imabalanced data i perquè SMOTE
+<img width="838" alt="Screenshot 2022-05-12 at 18 40 04" src="https://user-images.githubusercontent.com/101060178/168126144-ad873463-aa33-4205-8097-d47678e9e8d6.png">
 
-mencionar que ni feature engineering ni colinearity had a positive impact on results
+The confusion matrix also helps to observe the difference between both models:
+
+<img width="840" alt="Screenshot 2022-05-12 at 18 50 30" src="https://user-images.githubusercontent.com/101060178/168127967-ad0ca020-19aa-4208-84ce-b47eb04cc967.png">
+
+As you can see, we would be **losing 2,6X** more customers with the Decision Trees model than with the KNN model.
+
+IMBALANCED DATA
+
+I found a clear problem of imbalanced data in our target:
+
+<img width="847" alt="Screenshot 2022-05-12 at 18 58 12" src="https://user-images.githubusercontent.com/101060178/168129236-c7eeb92b-9b44-49f9-a101-58aa290dc76b.png">
+
+To fix it, I tried three different models:
+* SMOTE
+* Tomek Links
+* A combination of both
+
+SMOTE gave me the best results and it was applied to prior to all the classification models mentioned above.
+
+FEATURE ENGINEERING
+
+* Feature engineering was not improving results so I applied the models considering all the features.
+* I also checked collinearity between "average balance" and the "quarter balance" features, but it had no impact on the final outcome.
 
 ---
 
