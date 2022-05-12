@@ -2,7 +2,7 @@
 
 by [Roger Serret](https://github.com/rogerserret)
 
-## Prediciting the acceptance of a new credit card
+## Predicting the acceptance of a new credit card
 
 <img width="993" alt="Screenshot 2022-05-12 at 16 49 12" src="https://user-images.githubusercontent.com/101060178/168103495-a5e2fb52-8e73-4c01-8a24-60f53260f673.png">
 
