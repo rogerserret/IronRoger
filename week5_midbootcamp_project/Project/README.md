@@ -129,6 +129,7 @@ FEATURE ENGINEERING
 * SQL: [Link to SQL activity](https://github.com/rogerserret/IronRoger/blob/main/week5_midbootcamp_project/Project/SQL_questions.sql)
 * Tableau: [Link to Tableau Workbook](https://public.tableau.com/app/profile/roger.serret.aracil/viz/Mid-bootcampproject/Dashboard?publish=yes)
 * Python: [Link to Jupyter Notebook](https://github.com/rogerserret/IronRoger/blob/main/week5_midbootcamp_project/Project/Mid_bootcamp_project.ipynb)
+* Project deck: [Link to the presentation](https://docs.google.com/presentation/d/1gBfdD4QKXUhK0XqAICLK4Ar6m8wnxAgE-9M0m8tPA5c/edit?usp=sharing)
 
 ---
 
