@@ -11,7 +11,7 @@ by [Roger Serret](https://github.com/rogerserret)
 1. Project brief
 2. Data insights
 3. Process & Tools
-4. Visualizations
+4. Deliverables
 5. Final recommendations
 
 ---
@@ -124,9 +124,11 @@ FEATURE ENGINEERING
 
 ---
 
-### Visualizations
+### Deliverables
 
-idem
+* SQL: [Link to SQL activity](https://github.com/rogerserret/IronRoger/blob/main/week5_midbootcamp_project/Project/SQL_questions.sql)
+* Tableau: [Link to Tableau Workbook](https://public.tableau.com/app/profile/roger.serret.aracil/viz/Mid-bootcampproject/Dashboard?publish=yes)
+* Python: [Link to Jupyter Notebook](https://github.com/rogerserret/IronRoger/blob/main/week5_midbootcamp_project/Project/Mid_bootcamp_project.ipynb)
 
 ---
 
