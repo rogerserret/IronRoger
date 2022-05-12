@@ -41,7 +41,7 @@ The bank designs a focused marketing study, with 18,000 current bank customers. 
 
 Leveraging on the [data](https://github.com/rogerserret/IronRoger/blob/main/week5_midbootcamp_project/data_mid_bootcamp_project_classification-master/creditcardmarketing.csv) we were provided with, we used [SQL](https://github.com/rogerserret/IronRoger/blob/main/week5_midbootcamp_project/Project/SQL_questions.sql) to query the data base and Tableau's and Python's data visualisation tools to explore the relationships between features.
 
-The following dashboard visually shows the key insights that came out from that analytic process.
+The following dashboard visually shows the key insights that came out from that analytic process:
 
 <img width="1200" alt="Screenshot 2022-05-12 at 17 23 00" src="https://user-images.githubusercontent.com/101060178/168110799-103d7ee2-5441-485f-af54-e298a86ef843.png">
 
@@ -59,9 +59,47 @@ OFFER:
 * **Reward** (Air Miles is the most effective reward, followed by Points. Cash back is the least effective one)
 * **Mailer type** (Postcard converts more than double than Letter)
 
+*Other relevant findings*:
+* There is no correlation between the features “average balance”, the “quarter balances”, “overdraft protection” or “own your home” and the % of "offer acceptance".
+* There is no correlation between "income level" and "average balance".
+* The higher the "average balance", the bigger the amount of "homes owned".
+
 #### Prediction
 
 CLASSIFICATION TESTED MODELS:
 1. Logistic regression
 2. KNN
 3. Decision Trees
+
+afegir taula comparativa de les estadístiques de cada model i confusion matrix del KNN per explicar perquè l'escollim com a model ideal
+
+parlar de imabalanced data i perquè SMOTE
+
+mencionar que ni feature engineering ni colinearity had a positive impact on results
+
+---
+
+### Process & Tools
+
+molt semblant però adaptat
+
+---
+
+### Visualizations
+
+idem
+
+---
+
+### Final recommendations
+
+* Deeply assess the risk of each customer and try to find the right balance between conversion and risk.
+* Create a business case and assess which reward is better to focus on regarding its costs and it’s probability of acceptance of the offer.
+* Definitely use postcards as the mailer type. Cost of postcards and letters are quite similar, the advantage is clear.
+* In order to predict which customers are going to accept or not a credit card offer I would recommend using a KNN classification model combined with SMOTE.
+
+___
+
+If you have any questions, please don't hesitate to reach out to me.
+
+🚀 Roger Serret 
