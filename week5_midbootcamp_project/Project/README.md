@@ -109,7 +109,7 @@ FEATURE ENGINEERING
 * *Tableau and EDA*: followed with the Tableau activity and proceeded with the assessment of the dataframe to get ready for cleaning
 * *Data cleaning & wrangling in Python*: column names cleaning, drop 'customer_number' column, drop null values, checked duplicates
 * *EDA*: More EDA in Python to check correlation between features and others
-* *Prepocessing*: Log Transformation, encoding with Dummies 
+* *Pre-processing*: Log Transformation, encoding with Dummies 
 * *Machine Learning Model*: using scikit learn
   * iteration 1 (X): applied a Logistic Regression model having only used preprocessing and used it as a benchmark for the following iterations 
   * iteration 2 (X_i2): using SMOTE to improve the imbalance of the target
