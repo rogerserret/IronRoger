@@ -47,7 +47,7 @@ The following dashboard visually shows the key insights that came out from that 
 
 For further details, please refer to my [notebook](https://github.com/rogerserret/IronRoger/blob/main/week5_midbootcamp_project/Project/Mid_bootcamp_project.ipynb) or the [Tableau workbook](https://public.tableau.com/app/profile/roger.serret.aracil/viz/Mid-bootcampproject/Dashboard?publish=yes).
 
-#### Analysis
+#### - ANALYSIS -
 
 *Which elements are mainly impacting the % of acceptance of the new credit card?*
 
@@ -64,7 +64,7 @@ OFFER:
 * There is no correlation between "income level" and "average balance".
 * The higher the "average balance", the bigger the amount of "homes owned".
 
-#### Prediction
+#### - PREDICTION -
 
 CLASSIFICATION TESTED MODELS:
 1. Logistic regression
@@ -132,7 +132,7 @@ FEATURE ENGINEERING
 
 ---
 
-### Final recommendations
+### Final business recommendations
 
 * Deeply assess the risk of each customer and try to find the right balance between conversion and risk.
 * Create a business case and assess which reward is better to focus on regarding its costs and it’s probability of acceptance of the offer.
