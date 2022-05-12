@@ -39,5 +39,14 @@ The bank designs a focused marketing study, with 18,000 current bank customers. 
 
 ### Data insights
 
+#### Analysis
+
+*Which elements are mainly impacting the % of acceptance of the new credit card?*
+
+**Target:**
+* income_level (The lowest the income level, the highest the acceptance of the offer) 
+*credit_rating (The lowest the credit rating, the highest the acceptance of the offer. The bank should find the balance between risk and conversion.)
+
+#### Prediction
 
 
