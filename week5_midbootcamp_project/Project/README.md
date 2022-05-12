@@ -87,7 +87,7 @@ I found a clear problem of imbalanced data in our target:
 
 <img width="847" alt="Screenshot 2022-05-12 at 18 58 12" src="https://user-images.githubusercontent.com/101060178/168129236-c7eeb92b-9b44-49f9-a101-58aa290dc76b.png">
 
-To fix it, I tried three different models:
+To fix it, I tried three different techniques:
 * SMOTE
 * Tomek Links
 * A combination of both
