@@ -52,8 +52,8 @@ For further details, please refer to my [notebook](https://github.com/rogerserre
 *Which elements are mainly impacting the % of acceptance of the new credit card?*
 
 CUSTOMER:
-* **Income level** (The lowest the income level, the highest the acceptance of the offer) 
-* **Credit rating** (The lowest the credit rating, the highest the acceptance of the offer) 
+* **Income level** (The lower the income level, the highest the acceptance of the offer) 
+* **Credit rating** (The lower the credit rating, the highest the acceptance of the offer) 
 
 OFFER:
 * **Reward** (Air Miles is the most effective reward, followed by Points. Cash back is the least effective one)
