@@ -6,6 +6,8 @@ We have around a 15% more customers that used the test version than the control 
 
 <img width="1019" alt="Screenshot 2022-05-17 at 13 12 29" src="https://user-images.githubusercontent.com/101060178/168799113-6af716f2-6c78-46b4-944a-168bcbd8e322.png">
 
+## A/B testing conclusions
+
 I have analyzed how the new process affects the final confirmation by taking a look at the unique visits, so I can see the behaviour of each user on each visit:
 
 <img width="961" alt="Screenshot 2022-05-17 at 13 19 12" src="https://user-images.githubusercontent.com/101060178/168799491-99fc89f0-7d83-43d1-a4c6-2899b67dbfbd.png">
