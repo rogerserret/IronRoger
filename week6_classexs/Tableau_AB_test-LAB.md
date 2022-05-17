@@ -19,3 +19,5 @@ It looks as the new process really has an impact on the final conversion and we 
 I have also taken a look to our sample and we can see that people of different ages grouped in bins have approximately used the same amount of control and test versions:
 
 <img width="966" alt="Screenshot 2022-05-17 at 13 24 14" src="https://user-images.githubusercontent.com/101060178/168800055-64d91594-4761-4f6f-a1f4-51085cf433ef.png">
+
+For more information you can check my Tableau workbook: https://public.tableau.com/app/profile/roger.serret.aracil/viz/ABtesting_16527176949200/ClientAgevsVariation?publish=yes
