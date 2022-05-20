@@ -1,0 +1,9 @@
+shapeId,shapeType,shapeLabel,pointId,pointX,pointY,source
+0,point,Notting Hill Gate,0,539,537,
+1,point,Queensway,0,582,539,
+2,point,Lancaster Gate,0,612,538,
+3,point,Marble Arch,0,638,538,
+4,point,Bond Street,0,672,539,
+5,point,Oxford Circus,0,724,539,
+6,point,Tottenham Court Road,0,798,538,
+7,point,Holborn,0,841,539,
